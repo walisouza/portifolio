@@ -41,7 +41,7 @@ body {
 .apresentacao {
     gap: 80px;
     padding: 5%;
-    width: 50%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
