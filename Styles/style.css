@@ -15,7 +15,7 @@
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 5%;
+    padding: 2% 0% 0% 10%;
 }
 .container-menu {
     display: flex;
@@ -39,18 +39,16 @@ body {
 }
 
 .apresentacao {
-    gap: 80px;
-    padding: 5%;
-    width: 90%;
+    padding: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .apresentacao__conteudo {
     display: flex;
-    width: 50%;
     flex-direction: column;
     gap: 25px;
+    width: 615px;
 }
 
 .apresentacao__conteudo__titulo {
@@ -76,7 +74,6 @@ body {
 }
 
 .apresentacao__conteudo__links__link {
-    width: 50%;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -108,19 +105,34 @@ body {
     text-transform: uppercase;
 }
 
-@media (max-width:1200px) {
+@media (max-width: 1200px) {
     .apresentacao {
         flex-direction: column-reverse;
-        width: auto;
+        align-items: center;
+        padding: 5%;
     }
-.cabecalho {
-    padding: 5%;
-}
 
-.container-menu {
-    justify-content: center;
-}
-.menu {
-    justify-content: center;
-}
+    .apresentacao__conteudo {
+        width: 100%;
+    }
+
+    .UASÁUSQUI {
+        width: 80%;
+        margin-bottom: 10%;
+    }
+
+    .apresentacao__conteudo__links {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .container-menu {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecalho {
+        padding: 5% 0;
+        text-align: center;
+    }
 }
