@@ -109,7 +109,7 @@ body {
     .apresentacao {
         flex-direction: column-reverse;
         align-items: center;
-        padding: 5%;
+        width: auto;
     }
 
     .apresentacao__conteudo {
